@@ -1,8 +1,10 @@
+from turtle import *
 
-def say_hello (name):
-    print("How are you " + name)
+def move_and_turn (distance, angle):
+    forward(distance)
+    right(angle)
+print("print to the console")
 
-say_hello("Mike")
-say_hello("Mary")
-say_hello("Steve")
-say_hello("James")
+move_and_turn(100, 45)
+move_and_turn(90, 50)
+done()
