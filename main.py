@@ -5,6 +5,7 @@ speed(0)
 
 
 move_distance = 20
+setup(width=600, height=400)
 
 bgcolor("#D2691E")
 
